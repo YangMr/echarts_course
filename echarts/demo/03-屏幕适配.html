@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/flexible.js"></script>
+    <style>
+        div{
+            width: 5rem;
+            height: 5rem;
+            background: yellow;
+            font-size : 0.625rem;
+        }
+        @media screen and (max-width: 1024px){
+            html{
+                background: red;
+                font-size : 42.66px!important;
+            }
+        }
+        @media screen and (min-width: 1920px){
+            html{
+                background: pink;
+                font-size : 80px!important;
+            }
+        }
+    </style>
+</head>
+<body>
+<div>123</div>
+</body>
+</html>
